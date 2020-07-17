@@ -1,0 +1,537 @@
+<!doctype html>
+<html>
+<head>
+	<title>ICRYPEX</title> 
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="icon" href="assets/img/icons/favicon.ico" sizes="16x16" />
+	<link rel="icon" href="assets/img/icons/favicon.ico" sizes="32x32" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+	<!--<link rel="stylesheet" href="assets/dist-old/css/core.min.css">-->
+	<link rel="stylesheet" href="assets/dist/css/core.min.css">
+</head>
+
+<!-- Body -->
+<body>
+
+<header class="container-fluid d-flex justify-content-center">
+	<a class="headlogo" href="https://www.icrypex.com/" title="ICRYPEX" rel="bookmark" target="_blank"><img src="assets/img/icrypex-logo.svg" alt=""></a>
+</header>
+<section class="banner-wrapper">
+	<div class="container-fluid banner">
+		<div class="container h-100 flex-column d-flex justify-content-center align-items-center">
+			<h1 class="eff fadeInUp2" data-wow-duration=".6s" data-wow-delay=".1s"><b>KREDİ KARTIYLA BITCOIN ALMANIN KOLAY VE GÜVENİLİR YOLU!</b></h1>
+			<h2 class="eff fadeInUp2" data-wow-duration=".6s" data-wow-delay=".25s">SİZ DE KREDİ KARTINIZLA HIZLICA BITCOIN ALIN</h2>
+		</div>
+	</div>
+</section>
+<section class="container-fluid form-wrapper">
+	<div class="container">
+		<!-- Alert -->
+		<div class="alertset d-none">
+			<div class="alert alert-big alert-sweet alert-sweet-small alert-success alert-dismissible fade show" role="alert">
+				<div class="alert-flex">
+					<div class="alert-icon">
+						<div class="alert-icon-success">
+							<div class="alert-icon-success-tip"></div>
+							<div class="alert-icon-success-long"></div>
+							<div class="alert-icon-success-placeholder"></div>
+							<div class="alert-icon-success-fix"></div>
+						</div>
+					</div>
+					<div class="alert-big-desc">
+						<h4 class="alert-heading">Well done!</h4>
+						<p>Aww yeah, you successfully read this important alert message.</p>
+					</div>
+				</div>
+				<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="alert alert-big alert-sweet alert-sweet-small alert-warning alert-dismissible fade show" role="alert">
+				<div class="alert-flex">
+					<div class="alert-icon">
+						<div class="alert-icon-warning">
+							<div class="alert-icon-warning-body"></div>
+							<div class="alert-icon-warning-dot"></div>
+						</div>
+					</div>
+					<div class="alert-big-desc">
+						<h4 class="alert-heading">Warning!</h4>
+						<p>Aww yeah, you successfully read this important alert message.</p>
+					</div>
+				</div>
+				<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+		</div>
+		<!-- Alert -->
+		<form action="" autocomplete="off" onsubmit="return submitValidForm()" novalidate>
+			<h2 class="font-weight-normal">DİJİTAL PARA DÜNYASINDA <b>GERÇEK KRİPTO CÜZDANA</b> SAHİP OLUN!</h2>
+		<div class="d-flex inputs justify-content-center mt-2 mx-auto flex-column flex-lg-row">
+			<div id="iconFirstNameId" class="">
+				<input type="text" class="form-control" placeholder="İSİM" name="firstname" id="inputFirstNameId" required onkeyup="lpregisterform.verifyContent('inputFirstNameProcess','inputFirstNameId','msgFirstNameId','iconFirstNameId')" onfocusout="lpregisterform.verifyContentErrorDelete('inputFirstNameProcess','inputFirstNameId','msgFirstNameId','iconFirstNameId')">
+				<span class="inputerrormessage" id="msgFirstNameId"></span>
+			</div>
+			<div id="iconLastNameId" class="">
+				<input type="text" class="form-control" placeholder="SOYİSİM" name="lastname" id="inputLastNameId" required onkeyup="lpregisterform.verifyContent('inputLastNameProcess','inputLastNameId','msgLastNameId','iconLastNameId')" onfocusout="lpregisterform.verifyContentErrorDelete('inputLastNameProcess','inputLastNameId','msgLastNameId','iconLastNameId')">
+				<span class="inputerrormessage" id="msgLastNameId"></span>
+			</div>
+			<div id="iconPhoneId" class="">
+				<input type="text" class="form-control inputphonemask" placeholder="TELEFON" name="phone" id="inputPhoneId" required onkeyup="lpregisterform.verifyContent('inputPhoneProcess','inputPhoneId','msgPhoneId','iconPhoneId')" onfocusout="lpregisterform.verifyContentErrorDelete('inputPhoneProcess','inputPhoneId','msgPhoneId','iconPhoneId')">
+				<span class="inputerrormessage" id="msgPhoneId"></span>
+			</div>
+			<div id="iconEmailId" class="">
+				<input type="text" class="form-control" placeholder="E-POSTA" name="email" id="inputEmailId" required onkeyup="lpregisterform.verifyContent('inputEmailProcess','inputEmailId','msgEmailId','iconEmailId')" onfocusout="lpregisterform.verifyContentErrorDelete('inputEmailProcess','inputEmailId','msgEmailId','iconEmailId')">
+				<span class="inputerrormessage" id="msgEmailId"></span>
+			</div>
+			<div>
+				<button type="submit" class="btn btn-danger">HESAP OLUŞTUR</button>
+			</div>
+		</div>
+		<div class="d-lg-none d-flex justify-content-center mt-2 ml-0 checkbox-wrapper flex-column flex-lg-row">
+			<div class="checkboxline">
+				<div class="recaptcha-area d-flex">
+					<div class="recaptcha-check">
+						<div class="g-recaptcha" data-theme="dark" data-sitekey="6LewOKAUAAAAAMDO2yohWeyDcjFAHfcuEqK2mIp4"></div>
+					</div>
+					<span>Ben rabot değilim</span>
+				</div>
+			</div>
+			<div class="checkboxline ml-lg-4 ml-0 mt-2 mt-lg-0">
+				<div class="squaredFour">
+					<input type="checkbox" value="None" id="check1" name="termsofuse" />
+					<label id="labeltermsOfUseCheck" for="check1"><span><a href="https://www.icrypex.com/company/legal/terms" target="_blank"><u>Kullanım Sözleşmesini</u></a>&nbsp;okudum, onaylıyorum.</span></label>
+					<span class="inputerrormessage" id="msgUseTermCheckId"></span>
+				</div>
+			</div>
+			<div class="checkboxline ml-lg-4 ml-0 mt-2 mt-lg-0">
+				<div class="squaredFour">
+					<input type="checkbox" value="None" id="check2" name="inform" checked />
+					<label for="check2"><span>Gelişmelerden ve duyurulardan haberdar olmak istiyorum.</span></label>
+				</div>
+			</div>
+		</div>
+		</form>
+	</div>
+</section>
+
+<script type="text/javascript">
+
+	function verifyValidFirstName() {
+		if(document.getElementById('inputFirstNameId').value.length < 2){
+			document.getElementById('iconFirstNameId').classList.add("error");
+			document.getElementById('iconFirstNameId').classList.remove("check");
+			document.getElementById('msgFirstNameId').innerText = "EN AZ 2 KARAKTER";
+
+			return false;
+		} else {
+			document.getElementById('iconFirstNameId').classList.add("check");
+			document.getElementById('iconFirstNameId').classList.remove("error");
+			document.getElementById('msgFirstNameId').innerText = "";
+
+			return true;
+		}
+		return true;
+	}
+
+	function verifyValidLastName() {
+		if(document.getElementById('inputLastNameId').value.length < 2){
+			document.getElementById('iconLastNameId').classList.add("error");
+			document.getElementById('iconLastNameId').classList.remove("check");
+			document.getElementById('msgLastNameId').innerText = "EN AZ 2 KARAKTER";
+
+			return false;
+		} else {
+			document.getElementById('iconLastNameId').classList.add("check");
+			document.getElementById('iconLastNameId').classList.remove("error");
+			document.getElementById('msgLastNameId').innerText = "";
+
+			return true;
+		}
+		return true;
+	}
+
+	function verifyValidPhone() {
+		if(document.getElementById('inputPhoneId').value.replace(/\s/g, "").length < 11){
+			document.getElementById('iconPhoneId').classList.add("error");
+			document.getElementById('iconPhoneId').classList.remove("check");
+			document.getElementById('msgPhoneId').innerText = "HATALI TELEFON";
+
+			return false;
+		} else {
+			document.getElementById('iconPhoneId').classList.add("check");
+			document.getElementById('iconPhoneId').classList.remove("error");
+			document.getElementById('msgPhoneId').innerText = "";
+
+			return true;
+		}
+		return true;
+	}
+
+	function verifyValidEmail() {
+		var emailPattern	= /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+		if(!document.getElementById('inputEmailId').value.match(emailPattern)){
+			document.getElementById('iconEmailId').classList.add("error");
+			document.getElementById('iconEmailId').classList.remove("check");
+			document.getElementById('msgEmailId').innerText = "HATALI E-POSTA";
+
+			return false;
+		} else {
+			document.getElementById('iconEmailId').classList.add("check");
+			document.getElementById('iconEmailId').classList.remove("error");
+			document.getElementById('msgEmailId').innerText = "";
+
+			return true;
+		}
+		return true;
+	}
+
+	function verifyValidTermsOfUse() {
+		var termsOfUseCheck	= document.getElementById('check1').checked;
+
+		if(!termsOfUseCheck){
+			document.getElementById('labeltermsOfUseCheck').classList.add("error");
+			document.getElementById('labeltermsOfUseCheck').classList.remove("check");
+
+			return false;
+		} else {
+			document.getElementById('labeltermsOfUseCheck').classList.add("check");
+			document.getElementById('labeltermsOfUseCheck').classList.remove("error");
+
+			return true;
+		}
+		return true;
+	}
+
+
+	function submitValidForm() {
+		if (!verifyValidFirstName() || !verifyValidLastName() || !verifyValidPhone() || !verifyValidEmail() || !verifyValidTermsOfUse()){
+			console.log("HATA");
+			return false;
+		} else {
+			console.log("DOGRU");
+		}
+	}
+
+</script>
+
+<div class="wrapper">
+<section class="container-fluid crypto-analysis pt-7 pb-8">
+	<div class="container">
+		<h2 class="text-center">ŞEFFAF, DOĞRU, HIZLI VE GÜVENLİ İŞLEM, <b>DÜŞÜK KOMİSYON!</b></h2>
+		<div class="before-wrap">
+			<div class="owl-carousel crypto-carousel mt-4">
+				<div class="item">
+					<h5 class="name name1">
+						<img src="assets/img/icons/Btc_Icon-sm.svg" alt="">
+						<span>BITCOIN <i>BTC</i></span>
+					</h5>
+					<div class="chart">
+						<img src="assets/img/icons/line-sm-mpay.jpg" alt="">
+					</div>
+					<div class="value">
+						<span>
+							<i>GÜNCEL</i>53.501,00 TRY
+						</span>
+					</div>
+					<div class="result">
+						<span>
+							<i>24S ORTALAMA</i>53.326,38 TRY
+						</span>
+						<span class="down">
+							<i>24S DEĞİŞİM</i>154,00 <span class="text-success">+0.29%</span>
+						</span>
+					</div>
+					<div class="btns">
+						<a href="javascript:;" class="btn btn-success clickform">ALIŞ YAP</a>
+						<a href="javascript:;" class="btn btn-danger clickform">SATIŞ YAP</a>
+					</div>
+				</div>
+				<div class="item">
+					<h5 class="name name1">
+						<img src="assets/img/icons/Eth_Icon-sm.svg" alt="">
+						<span>ETHEREUM <i>ETH</i></span>
+					</h5>
+					<div class="chart">
+						<img src="assets/img/icons/line-sm-mpay.jpg" alt="">
+					</div>
+					<div class="value">
+						<span>
+							<i>GÜNCEL</i>23.603,92 TRY
+						</span>
+					</div>
+					<div class="result">
+						<span>
+							<i>24S ORTALAMA</i>53.326,38 TRY
+						</span>
+						<span class="down">
+							<i>24S DEĞİŞİM</i>154,00 <span class="text-success">+0.29%</span>
+						</span>
+					</div>
+					<div class="btns">
+						<a href="javascript:;" class="btn btn-success clickform">ALIŞ YAP</a>
+						<a href="javascript:;" class="btn btn-danger clickform">SATIŞ YAP</a>
+					</div>
+				</div>
+				<div class="item">
+					<h5 class="name name1">
+						<img src="assets/img/icons/Xrp_Icon-sm.svg" alt="">
+						<span>RIPPLE <i>XRP</i></span>
+					</h5>
+					<div class="chart">
+						<img src="assets/img/icons/line-sm-mpay.jpg" alt="">
+					</div>
+					<div class="value">
+						<span>
+							<i>GÜNCEL</i>7.433,06 TRY
+						</span>
+					</div>
+					<div class="result">
+						<span>
+							<i>24S ORTALAMA</i>53.326,38 TRY
+						</span>
+						<span class="down">
+							<i>24S DEĞİŞİM</i>154,00 <span class="text-success">+0.29%</span>
+						</span>
+					</div>
+					<div class="btns">
+						<a href="javascript:;" class="btn btn-success clickform">ALIŞ YAP</a>
+						<a href="javascript:;" class="btn btn-danger clickform">SATIŞ YAP</a>
+					</div>
+				</div>
+				<div class="item">
+					<h5 class="name name1">
+						<img src="assets/img/icons/ltc_Icon-sm.svg" alt="">
+						<span>LITECOIN <i>LTC</i></span>
+					</h5>
+					<div class="chart">
+						<img src="assets/img/icons/line-sm-mpay.jpg" alt="">
+					</div>
+					<div class="value">
+						<span>
+							<i>GÜNCEL</i>12.571,77 TRY
+						</span>
+					</div>
+					<div class="result">
+						<span>
+							<i>24S ORTALAMA</i>53.326,38 TRY
+						</span>
+						<span class="down">
+							<i>24S DEĞİŞİM</i>154,00 <span class="text-success">+0.29%</span>
+						</span>
+					</div>
+					<div class="btns">
+						<a href="javascript:;" class="btn btn-success clickform">ALIŞ YAP</a>
+						<a href="javascript:;" class="btn btn-danger clickform">SATIŞ YAP</a>
+					</div>
+				</div>
+				<div class="item">
+					<h5 class="name name1">
+						<img src="assets/img/icons/Bch_Icon-sm.svg" alt="">
+						<span>BITCOIN CASH <i>BCH</i></span>
+					</h5>
+					<div class="chart">
+						<img src="assets/img/icons/line-sm-mpay.jpg" alt="">
+					</div>
+					<div class="value">
+						<span>
+							<i>GÜNCEL</i>3.051,04 TRY
+						</span>
+					</div>
+					<div class="result">
+						<span>
+							<i>24S ORTALAMA</i>53.326,38 TRY
+						</span>
+						<span class="down">
+							<i>24S DEĞİŞİM</i>154,00 <span class="text-success">+0.29%</span>
+						</span>
+					</div>
+					<div class="btns">
+						<a href="javascript:;" class="btn btn-success clickform">ALIŞ YAP</a>
+						<a href="javascript:;" class="btn btn-danger clickform">SATIŞ YAP</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="container-fluid why-icrypex py-6 mt-lg-0 mt-10">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-5">
+				<img src="assets/img/Big_Symbol_Img.png" alt="" class="x-symbol eff fadeInLeft" data-wow-duration=".8s" data-wow-delay=".2s" data-wow-offset="225">
+			</div>
+			<div class="col-lg-7 text mt-5 mt-lg-0 eff fadeInUp2" data-wow-duration=".6s" data-wow-delay=".1s" data-wow-offset="175">
+				<h2 class="text-white border-bt"><b>NEDEN ICRYPEX</b> CRYPTO EXCHANGE?</h2>
+				<div class="row mt-3 text-ablue">
+					<div class="col-lg-6">
+						<h3 class="text-white border-bt ht2">HIZLI PLATFORM</h3>
+						<p>Borsalarda hız en önemli unsurdur. Icrypex platformlarında milisaniyeler içerisinde emrinizin işleme girer, limit emirleriniz uygun fiyat ile buluştuğunda gerçekleşir. Saniyeler içerisinde para yatırıp, çekebilirsiniz.</p>
+					</div>
+					<div class="col-lg-6 mt-4 mt-lg-0">
+						<h3 class="text-white border-bt ht2">SOĞUK CÜZDAN</h3>
+						<p>Kripto varlıklarınız, fiziksel olarak izole edilmiş, çevrimdışı, ağa bağlı olmayan cüzdanlarda muhafaza edilir. Bu soğuk depolar, varlıklarınızı güvenle saklayabilecek fiziki zorlu çevresel koşullara dayanır ve siber risk barındırmaz.</p>
+					</div>
+				</div>
+				<div class="row mt-4 text-ablue">
+					<div class="col-lg-6">
+						<h3 class="text-white border-bt ht2">2FA DOĞRULAMA</h3>
+						<p>2 adımlı doğrulama, kişisel veri güvenliğinin son noktalarından biridir. 2FA ile hesabınıza girerken bir güvenlik katmanı daha eklemiş olursunuz. Böylece sadece sizin için oluşturulan doğrulama kodu ile hesabınıza giriş yaparsınız.</p>
+					</div>
+					<div class="col-lg-6 mt-4 mt-lg-0">
+						<h3 class="text-white border-bt ht2">GERÇEK CÜZDAN</h3>
+						<p>Icrypex ile yaptığınız işlemler gerçek çekirdekte yapılır, global blokzincire yansıtılır. Sadece Icrypex üzerinde açtığınız cüzdandaki işlemleri Etherscan veya btc.com üzerinden de takip edebilirsiniz.</p>
+					</div>
+				</div>
+				<div class="row mt-4 text-ablue">
+					<div class="col-lg-6">
+						<h3 class="text-white border-bt ht2">SEGWIT</h3>
+						<p>İşlem boyutlarını küçülterek, işlem hızını ve sınırlı blok büyüklüğünü en verimli şekilde kullanan bir teknoloji sunuyoruz. Böylece kripto para transferleriniz göz açıp kapayıncaya kadar gerçekleşmiş oluyor.</p>
+					</div>
+					<div class="col-lg-6 mt-4 mt-lg-0">
+						<h3 class="text-white border-bt ht2">YÜKSEK DERİNLİK</h3>
+						<p>Icrypex size 7 kripto para birimi, 14 para çiftinde derinlikli bir borsa hizmeti sunar. Teorik olarak bu, aynı anda 14 farklı markete erişebildiğiniz anlamına gelir. Her birinde istediğiniz an işleme girip çıkabillirsiniz.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="container-fluid what-crypto pt-lg-9 pt-8 pb-9">
+	<span class="rightbg eff fadeInRight" data-wow-duration=".8s" data-wow-delay=".3s" data-wow-offset="175"></span>
+	<div class="container">
+		<div class="row eff fadeInUp2 flex-column-reverse flex-lg-row" data-wow-duration=".8s" data-wow-delay=".1s" data-wow-offset="175">
+			<div class="col-lg-6 text mt-5 mt-lg-0">
+				<h2 class="border-bt">KRİPTO PARA <b>NEDİR?</b></h2>
+				<p class="mt-3">Kripto paralar, sanal para olarak da tanımlayabileceğimiz, günümüzün en ileri kriptoloji (şifre bilimi) yöntemleri ile şifrelenerek internet ağı aracılığı ile kayıt altına alınan ve merkezi bir otoriteye ihtiyaç duymayan para birimlerine verilen genel bir isimdir.</p>
+				<p class="mt-3">Kripto paralar belirli şifre metodları ile korunan ve yine benzer metodoloji içeren başka şifreler tarafından kullanılabildikleri için bu ismi alırlar. Gün geçtikçe daha fazla insan, kurum tarafından takasa konu oldukları için de popülerlikleri gün geçtikçe artıyor. Bir değerin, varlığın para olabilmesi için taşıması gereken 3 ana özellik vardır; mübadele aracı olma, ölçü ya da değer birimi olabilme ve değer saklama aracı olma. Kripto paralar bulundukları anda bu özellikleri zaten taşısalar da, gün geçtikçe bu niteliklerini pekiştiriyorlar.</p>
+				<p class="mt-3">Bitcoin, 2008 yılında ilk olarak çıkan ve takasa konu olan para birimi olması sebebiyle en popular kripto para olarak Kabul ediliyor. Yakın ancak farklı teknolojiler kullanan başka para birimleri de yok değil; Ripple, Ethereum, Litecoin, Dash, Doge ve hatta Amerikan Doları gibi hareket eden USDt bunlardan bazıları. Kripto paralar, herhangi bir arz merkezine bağlı olmadıkları için değerleri tamamen piyasanın arz ve talebine göre şekilleniyor.</p>
+				<p class="mt-4">DAHA DETAYLI BİLGI İÇİN ÜCRETSİZ HESAP AÇIP, KRİPTO PARA UZMANLARIMIZDAN İSTER YÜZ YÜZE İSTER TELEFON İLE ÜCRETSIZ EĞİTİM ALABİLİRSİNİZ. </p>
+			</div>
+			<div class="col-lg-5 offset-lg-1 position-relative">
+				<img src="assets/img/Big_Crypto_Img.png" alt="" class="crypto-img eff fadeInUp3" data-wow-duration=".6s" data-wow-delay=".6s" data-wow-offset="200">
+				<span class="bg-mask"></span>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="container-fluid support pt-7 pb-8 mt-lg-0 mt-8">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-5 position-relative">
+				<img src="assets/img/Big_Laptop_Img.png" alt="" class="laptop eff rollIn" data-wow-duration=".8s" data-wow-delay=".3s" data-wow-offset="237">
+			</div>
+			<div class="col-lg-7 text mt-6 mt-lg-0 eff fadeInUp2 text-ablue" data-wow-duration=".6s" data-wow-delay=".1s" data-wow-offset="200">
+				<h2 class="text-white border-bt">1E1 PROFESYONEL <b>DESTEK!</b></h2>
+				<p class="mt-2">Türkiye’de 7 gün 24 saat, gerçekten erişilebilen tek borsa. Sorularınız için sizi Info@ ya da destek@ eposta adreslerine yönlendirmiyoruz. Telefonun diğer hattında, daima size yardım etmeye hazır bir kripto para uzmanı sizi bekliyor.</p>
+				<p class="mt-3">Kripto para uzmanınız ile her gün kripto piyasasındaki gelişmeleri takip edebilirsiniz. Böylece, ICO süreçlerinden, çatallanma (fork) ihtimallerinden ilk sizin haberiniz olur. Kripto varlıklarınızı buna göre yönlendirirsiniz.</p>
+				<div class="row mt-3 text-ablue">
+					<div class="col-lg-6">
+						<h3 class="text-white border-bt ht2">HIZLI DESTEK</h3>
+						<p>Telefonun diğer hattında daima erişe bileceğiniz kripto para uzmanınız sizi bekliyor. İhtiyacınız olduğu anda telefon açabilir, Whatsapp tan erişebilir  ya da mail atabilirsiniz. Piyasanın hızını bizimle yakalayın.</p>
+					</div>
+					<div class="col-lg-6 mt-4 mt-lg-0">
+						<h3 class="text-white border-bt ht2">ANLIK DUYURULAR</h3>
+						<p>Güvenli müşteri alanındaki anlık duyuru bölümünden piyasaya dair gelişmeleri anlık olarak takip edebilirsiniz. Böylece yeni bir haberin ardından portföyünüzü hızlı bir şekilde yeni duruma göre ayarlayabilirsiniz.</p>
+					</div>
+				</div>
+				<div class="row mt-4 text-ablue">
+					<div class="col-lg-6">
+						<h3 class="text-white border-bt ht2">PROFESYONEL EĞİTİM</h3>
+						<p>Kripto para piyasasına girmek istiyorsunuz ancak daha fazla öğrenmek mi istiyorsunuz ? e-kitap, webinar ve seminerlerimiz ile piyasa detaylarını öğrenin, paranızı ve varlıklarınızı doğru analiz edin.</p>
+					</div>
+					<div class="col-lg-6 mt-4 mt-lg-0">
+						<h3 class="text-white border-bt ht2">GÜNLÜK ANALİZ</h3>
+						<p>Her sabah sıcağı sıcağına günün beklenen haberleri ve gelişmeleri ile alakalı tüm bilgiyi size ulaştırıyoruz. Böylece her an portföyünüzün ihtiyacı olan bilgi elinizin altında olacak.</p>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="start-investment pt-8">
+	<div class="container d-flex flex-column">
+		<h2 class="text-center border-bt bt-center"><b>SADECE 3 ADIMDA</b> KRİPTO PARA YATIRIMINA <b>BAŞLAYIN!</b></h2>
+		<div class="steps-wrapper d-flex justify-content-center align-items-center mt-6">
+			<div class="steps eff fadeInUp2" data-wow-duration=".6s" data-wow-delay=".1s" data-wow-offset="150">
+				<h2>01</h2>
+				<h3>KAYIT FORMUNU DOLDURUN</h3>
+			</div>
+			<div class="steps eff fadeInUp2" data-wow-duration=".6s" data-wow-delay=".2s" data-wow-offset="150">
+				<h2>02</h2>
+				<h3>ONAY İŞLEMİNİ TAMAMLAYIN</h3>
+			</div>
+			<div class="steps eff fadeInUp2" data-wow-duration=".6s" data-wow-delay=".3s" data-wow-offset="150">
+				<h2>03</h2>
+				<h3>KRİPTO PARA ALIN SATIN</h3>
+			</div>
+		</div>
+		<div class="text-center eff fadeInUp2" data-wow-duration=".6s" data-wow-delay=".4s" data-wow-offset="150">
+			<h3 class=" font-weight-normal mt-4">TÜRKİYE’DE 7 GÜN 24 SAAT, GERÇEKTEN ERİŞİLEBİLEN TEK BORSA!</h3>
+			<p>Sorularınız için sizi Info@ ya da destek@ eposta adreslerine yönlendirmiyoruz.</p>
+			<p>Telefonun diğer hattında, daima size yardım etmeye hazır bir kripto para uzmanı sizi bekliyor.</p>
+		</div>
+		<a href="javascript:;" class="btn btn-danger eff fadeInUp2 clickform" data-wow-duration=".6s" data-wow-delay=".4s" data-wow-offset="150">ÜCRETSİZ ÜYELİK OLUŞTUR</a>
+	</div>
+	<footer class="container-fluid pt-8">
+		<div class="bottom">
+			<span></span>
+		</div>
+		<div class="social-media mt-6 d-flex justify-content-center">
+			<a class="fc" href="https://facebook.com/icrypex/" target="_blank"></a>
+			<a class="tw" href="https://twitter.com/icrypex" target="_blank"></a>
+			<a class="ins" href="https://www.instagram.com/icrypex/" target="_blank"></a>
+			<a class="mdm" href="https://medium.com/@icrypex" target="_blank"></a>
+			<a class="ln" href="https://www.linkedin.com/company/icrypex-crypto-exchange/" target="_blank"></a>
+			<a class="tlgrm" href="https://t.me/icrypex_tr" target="_blank"></a>
+		</div>
+		<div class="text-center px-3">
+			<h3 class="font-weight-normal mt-5"><a href="tel:0850 255 1079" class="text-white">0850 255 1079</a></h3>
+			<p class="secr">Tüm Hakları Saklıdır © 2018-2019 Icrypex Crypto Exchange <br>Icrypex Bilişim A.Ş. Maslak Mah. Maslak Meydan Sok. Spring Giz Plaza N:5/57 Sarıyer/İstanbul</p>
+		</div>
+		<div class="banks mt-6">
+			<div class="middle d-flex justify-content-center flex-wrap flex-md-nowrap">
+				<div>
+					<img src="assets/img/icons/Akbank_Logo.svg" alt="">
+				</div>
+				<div>
+					<img src="assets/img/icons/Ziraat_Logo.svg" alt="">
+				</div>
+				<div>
+					<img src="assets/img/icons/Odeabank_Logo.svg" alt="">
+				</div>
+				<div>
+					<img src="assets/img/icons/Vakifbank_Logo.svg" alt="">
+				</div>
+				<div>
+					<img src="assets/img/icons/Papara_Logo.svg" alt="">
+				</div>
+			</div>
+		</div>
+	</footer>
+</section>
+
+</div>
+
+<!-- Body -->
+
+<!-- SCRIPT -->
+<script src="assets/cdn/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="assets/cdn/bootstrap.min.js"></script>
+<script src="assets/cdn/owl.carousel.js"></script>
+<script src="assets/cdn/wow.min.js"></script>
+<script src="assets/vendor/inputmask/dist/min/jquery.inputmask.bundle.min.js"></script>
+<script async="" src="https://www.google.com/recaptcha/api.js"></script>
+<script src="assets/cdn/core.js"></script>
+<script src="assets/dist/js/core.js"></script>
+</body>
+</html>
