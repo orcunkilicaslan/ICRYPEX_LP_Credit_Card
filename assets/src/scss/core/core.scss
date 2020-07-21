@@ -588,24 +588,27 @@ footer{
 		@media screen and(max-width:$screenxl){
 			min-height:623px;
 			background-position: -150px center;
+			background-size: 1550px;
 		}
 		@media screen and(max-width:$screenlg){
-			background-position: -275px center;
+			background-image:url(#{$mainImgPath}/banner/bg_mobile.jpg);
+			background-position: center top;
+			background-size: contain;
 		}
 		@media screen and(max-width:$screenmd){
 			height:auto;
 			min-height:auto;
-			background-size:cover;
-			background-position: 80px center;
+			background-size:620px;
 		}
 		@media screen and(max-width:$screenxs){
-			background-position: left center;
+			//background-position: center top;
 		}
 		@media screen and(max-width:$screenxs - 100px){
-			background-position: -195px -30px;
+			//background-position: -195px -30px;
 		}
 		@media screen and(max-width:$screenxs - 180px){
-			background-position: -215px -30px;
+			background-size:480px;
+			background-position: center 10px;
 		}
 		.container{
 			padding-top: 10%;
@@ -619,14 +622,16 @@ footer{
 				padding-bottom: 10%;
 				padding-left: 575px;
 			}
+			@media screen and(max-width:$screenlg){
+				padding-left: 15px;
+			}
 			@media screen and(max-width:$screenmd){
 				padding-top: 344px;
 				padding-bottom: 30px;
-				padding-left: 0;
     		}
-			@media screen and(max-width:$screenxs - 100px){
-				padding-top: 380px;
-				padding-left: 15px;
+			@media screen and(max-width:$screenxs - 180px){
+				padding-top: 280px;
+				padding-bottom: 10px;
 			}
 		}
 		h1{
@@ -645,6 +650,9 @@ footer{
 				font-size: 45px;
 				line-height: 45px;
 			}
+			@media screen and(max-width:$screenlg){
+				text-align: center;
+			}
 			@media screen and(max-width:$screenmd){
 				text-align: center;
 			    font-size: 36px;
@@ -660,6 +668,10 @@ footer{
 			@media screen and(max-width:$screenxs - 100px){
 				font-size: 32px;
 				line-height: 32px;
+			}
+			@media screen and(max-width:$screenxs - 180px){
+				font-size: 28px;
+				line-height: 28px;
 			}
     		&.fadeInUp2 {
 			    animation-name: fadeInUp2 !important;
@@ -683,6 +695,9 @@ footer{
 				font-size: 45px;
 				line-height: 45px;
 			}
+			@media screen and(max-width:$screenlg){
+				text-align: center;
+			}
 			@media screen and(max-width:$screenmd){
 				text-align: center;
 				font-size: 36px;
@@ -696,6 +711,10 @@ footer{
 			@media screen and(max-width:$screenxs - 100px){
 				font-size: 32px;
 				line-height: 32px;
+			}
+			@media screen and(max-width:$screenxs - 180px){
+				font-size: 28px;
+				line-height: 28px;
 			}
 		}
 	}
@@ -711,7 +730,7 @@ footer{
 	background: transparentize(#080B0F, 0.01);
 	@media screen and(min-width:$screenmd + 1){
 		&.bottom-active{
-			background:rgba(1,19,38,.9);
+			background: transparentize(#080B0F, 0.05);
 			padding:10px 0 13px;
 			h2{
 				font-size:22px;
@@ -754,7 +773,7 @@ footer{
 	}
 	@media screen and(max-width:$screenmd){
 		position:relative;
-		background:#011326;
+		//background:#011326;
 	}
 
 	.alertset{
